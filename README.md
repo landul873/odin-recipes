@@ -1,5 +1,5 @@
-# odin-recipesTh
-is is my first project from The Odin Project.
+# odin-recipes
+it's my first project from The Odin Project.
 
 In this project, I will create a Indonesian Food recipes website using HTML.
 
