@@ -1,11 +1,12 @@
 body {
     background: lightblue;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 h1 {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     text-align: center;
-    font-size: 50px;
+    text-align: center;
+    font-size: 40px;
     background: white;
     padding: 10px;
     margin: 20px 50px;
@@ -13,28 +14,65 @@ h1 {
     border-radius: 20px;
 }
 
-.box-1 {
+.box-1, .img-box{
     background: white;
-    padding: 20px;
-    margin: 20px 50px;
-    border-radius: 20px;
     box-shadow: 10px 10px 5px grey;
+    border-radius: 20px;
+    padding: 20px;
+}
+
+.box-1{
+    margin: 20px 50px;
+}
+
+.img-box{
+    width: 320px;
+    height: 320px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.content1, .content2, .content3{
+    display:block;
+    background: #317ae6;
+    border: none;
+    width: 25vw;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 20px;
 }
 
 .content1{
-    background: #317ae6;
-    border: none;
-    width: 1000px;
-    padding: 5px;
-    margin: 10px 50px;
-    border-radius: 20px;
-    ;
+    padding: 5px 10px;
 }
 
-.text .style1{
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+.content3{
+    margin-left: 50px;
+    padding: 5px 10px;
+}
+
+.img-box{
+    width: 300px;
+    height: 300px;
+    margin-left: auto;
+}
+
+.text{
     text-align: center;
     color:white;
     font-weight: bold;
+    
+}
+
+.text.style1{
     font-size: 30px;
+}
+
+.text.style2{
+    font-size: 20px;
+}
+
+text.style3{
+    font-size: 25px;
 }

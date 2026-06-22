@@ -7,3 +7,4 @@ Skills I will practice:
 
 - basic HTML (make a list, link page and image, and working with text)
 - GitHub
+- basic CSS
