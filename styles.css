@@ -45,8 +45,12 @@ h1 {
 
 .content1{
     padding: 5px 10px;
+    min-width: 146px;
 }
 
+.content2{
+    min-width: 166px;
+}
 .content3{
     margin-left: 50px;
     padding: 5px 10px;
